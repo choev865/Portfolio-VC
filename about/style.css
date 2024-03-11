@@ -1,0 +1,456 @@
+
+body {
+    font-family: "articulat-cf", sans-serif;
+    font-weight: 600;
+    font-style: light;
+}
+
+
+
+  .navbar {
+    position: fixed;
+    top: -50px;
+    width: 100%;
+    display: flex;
+    transition: top 0.3s;
+    z-index: 100;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    
+
+  }
+  
+  .navbar {
+    position: fixed;
+    top: -50px;
+    width: 100%;
+    display: flex;
+    transition: top 0.3s;
+    z-index: 100;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    
+
+  }
+  
+  #navbar a {
+    float: left;
+    display: block;
+    color: red;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 2rem;
+
+  }
+ 
+  #navbar a:hover {
+    color: black;
+  }
+
+
+.left {
+  display: flex;
+    align-items: center;
+    text-align: left;
+    margin-left: 1.5rem;
+
+}
+.right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 1.5rem;
+  font-family: "articulat-cf", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.veronica {
+  font-family: miller-headline;
+  font-weight:300;
+  font-style:oblique;
+  font-size: 1rem;
+
+}
+.video {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.content {
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 70px;
+    padding: 1.2rem;
+
+
+}
+
+.sectionOne {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+
+.title {
+    display: flex;
+    font-size: 5rem;
+    padding-right: 10px;
+    width: 100%;
+}
+.description{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    width: 40%;
+    font-size: 1.8rem;
+    font-family: "articulat-cf", sans-serif;
+    font-weight: 600;
+    font-style: light;
+}
+
+
+.picture {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 30px;
+    object-fit: contain;
+
+
+}
+.picture img {
+  width: 60%;
+  height: auto;
+  object-fit: contain;
+
+  }
+
+
+.facts {
+  display: flex;
+  flex-direction: column;
+  flex-flow: wrap;
+  width: 40%;
+  padding-top: 20px;
+
+
+  
+}
+
+
+
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  padding-top: 5rem;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+
+
+.column {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+    justify-content: center;
+  align-items: center;
+
+
+}
+
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-top: 20px;
+
+}
+
+
+
+
+.hobbies {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.hobbies ul {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 100%;
+
+  
+  
+}
+
+.hobbies li {
+  float: left;
+
+  
+}
+
+.hobbies li  {
+  display: block;
+  text-align: center;
+  padding: 1rem;
+  text-decoration: none;
+  font-family:ArticulatCF-Oblique, Articulat CF;
+  font-weight:500;
+  font-style:oblique;
+  
+  
+
+}
+
+
+.additional-text{
+    width: 40%;
+    font-size: 1.4rem;
+    justify-content: left;
+    align-items: left;
+    float: left;
+
+}
+.footer {
+  width: 100%;
+  margin-top: 5rem;
+  background-color: whitesmoke;
+
+
+}
+
+.contacts {
+display: flex;
+flex-direction: row;
+width: 100%;
+align-items: center;
+justify-content: space-around;
+font-size: 1.5rem;
+padding-bottom: 5rem;
+}
+
+.side {
+  justify-content: center;
+  align-items: center;
+}
+
+
+a:link {
+  color: black;
+  background-color: transparent;
+  font-weight: bold ;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: gray;
+  background-color: transparent;
+}
+
+
+ 
+  
+  @media screen and (max-width: 1200px) {
+    .picture {
+        width:50%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 30px;
+    
+    
+    }
+    .picture img {
+        width: 100%;
+        height: auto;
+        padding: none;
+      }
+
+      .sectionOne {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    align-items: center;
+    
+    }
+
+    .video {
+      width: 100%;
+    }
+    
+    
+    .title {
+        display: flex;
+        font-size: 5rem;
+        width: 100%;
+
+    }
+    .description{
+        display: flex;
+        width: 100%;
+        font-size: 1.3rem;
+        font-family: "articulat-cf", sans-serif;
+        font-weight: 600;
+        font-style: light;
+        justify-content: center;
+    align-items: center;
+    }
+
+
+      .facts {
+        display: flex;
+        flex-direction: column;
+        flex-flow: wrap;
+        width: 100%;
+        font-size: 1.4rem;
+      }
+    
+      
+      
+      
+      
+      .bottom {
+        display: flex;
+        flex-direction: row;
+        flex-flow: wrap;
+        padding-top: 5rem;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+      
+      }
+      
+      
+      
+      .column {
+        display: flex;
+        width: 40%;
+        flex-direction: column;
+          justify-content: center;
+        align-items: center;
+      
+      
+      }
+      
+      
+      .skills {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+      padding-left: none;
+ 
+    
+      }
+      
+      
+      
+      
+      .hobbies {
+        display: flex;
+        flex-direction: row;
+        flex-flow: wrap;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      
+      
+      .hobbies ul {
+        display: flex;
+        flex-direction: row;
+        background-color: none;
+        width: 100%;
+      }
+      
+      .hobbies li {
+        float: left;
+      }
+      
+      .hobbies li  {
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        font-family:ArticulatCF-lightOblique, Articulat CF;
+        font-weight:600;
+        font-style:oblique;
+        font-size: 1.4rem;
+
+        
+      
+      }
+      
+      
+      .additional-text{
+          width: 100%;
+          font-size: 2rem;
+          justify-content: left;
+          align-items: left;
+          float: left;
+          padding-top: 30px;
+      
+      }
+.footer .additional-text {
+  font-size: 1.3rem;
+}
+      .footer {
+        width: 100%;
+        margin-top: 5rem;
+        background-color: whitesmoke;
+      
+      
+      }
+      
+      .contacts {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      font-size: 1rem;
+      padding-bottom: 5rem;
+      justify-content: left;
+      align-items: left;
+
+      }
+      
+      .side {
+        justify-content: left;
+        align-items: left;
+      }
+     
+
+  }
